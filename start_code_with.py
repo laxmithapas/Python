@@ -45,4 +45,3 @@ class Dog:
 
 my_dog = Dog("Rex") 
 my_dog.bark()
-   
