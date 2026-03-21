@@ -15,16 +15,16 @@ from datetime import datetime
 
 # 3 Defining fucntions first
 
-def greet(name)
+def greet(name):
     print(f"Hello, {name}!")
-greet("Alice")
+greet("Alice")  # Hello, Alice!
 
 # 4 The if__name__ == "__main__" Block
 
 def main():
     print("Programm starts here")
 if __name__ == "__main__":
-    main()
+    main()  # Output: Programm starts here
 
 # 5 Variables and Constant at the top
 Name = "Alice"
@@ -44,4 +44,4 @@ class Dog:
         print(f"{self.name} says Woof!")
 
 my_dog = Dog("Rex") 
-my_dog.bark()
+my_dog.bark()   # Output: Rex says Woof!

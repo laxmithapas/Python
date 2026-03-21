@@ -42,7 +42,10 @@ students = {
     "Bob": {"age": 22, "grade": "B"},
     "Charlie": {"age": 21, "grade": "A"}
 }
-print(students["Alice"]["grade"])   #access nested value
+print(students["Alice"]["grade"])   
+
+
+
 
 
 student = {
